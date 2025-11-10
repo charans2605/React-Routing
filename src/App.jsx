@@ -10,6 +10,7 @@ import Contact from "./Contact"
 export default function App() {
   return (
     <div>
+      <h1>Hello Routing</h1>
       <Navbar />
       <Routes>
         <Route path="/home" element = {<Home />}></Route>
